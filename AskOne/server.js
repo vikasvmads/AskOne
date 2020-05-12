@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 
 const mongoDB =
     //'mongodb+srv://vikas:vmads@22@cluster0-jaxj2.mongodb.net/local_library?retryWrites=true';
-    "mongodb://127.0.0.1:27017/fullStack";
+    "mongodb://127.0.0.1:27017/AskOne";
 
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 const db = mongoose.connection;
